@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useReducer } from 'react';
+import { portfolioReducer } from './reducers/portfolioReducer';
+import { PortfolioProvider } from './providers/portfolioProvider';
+import PortfolioHome from './components/portfolioHome';
+import { WindowDimensionsProvider } from './providers/windowDimensionsProvider';
 
-function App() {
+const initialState = {
+  // variables
+};
+
+const App = () => {
+  const store = useReducer(portfolioReducer, initialState);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <WindowDimensionsProvider>
+      <div className="App">
+      <PortfolioProvider value={store}>
+        <PortfolioHome />
+      </PortfolioProvider>
+      </div>
+    </WindowDimensionsProvider>
+  )
 }
 
 export default App;
