@@ -1,0 +1,42 @@
+$background-color: #0f0;
+$header-text-main-color: #000;
+$header-text-secundary-color: rgba(0,0,0,0.6);
+
+.root {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    //background-image: url('../../assets/header-background.jpg');
+    height: 100vh;
+}
+.canvas{
+    z-index: 9;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    position: relative;
+    width: 25em;
+}
+
+.info {
+    position: relative;
+    text-align: center;
+    transform: translateY(-150%);
+    color: $header-text-main-color;
+    z-index: 2;
+
+    h1{
+        font-size: xx-large;
+    }
+
+    h2 {
+        color: $header-text-secundary-color;
+    }
+}
+
+

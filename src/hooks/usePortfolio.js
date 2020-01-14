@@ -8,7 +8,7 @@ export const usePortifolio = () => {
     const { cancellablePromise } = useCancellablePromise();
 
     useEffect(() => {
-        // Effetcs when array changes
+        // Fetch anything that needs to be fetched
     }, []);
 
     return {

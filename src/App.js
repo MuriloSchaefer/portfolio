@@ -2,22 +2,27 @@ import React, { useReducer } from 'react';
 import { portfolioReducer } from './reducers/portfolioReducer';
 import { PortfolioProvider } from './providers/portfolioProvider';
 import { WindowDimensionsProvider } from './providers/windowDimensionsProvider';
-import 'bulma/css/bulma.css'
 import Content from './components/Content';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
+// CSS libraries
+import 'bulma/css/bulma.css'
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 const initialState = {
-  // variables
 };
 
 const App = () => {
   const store = useReducer(portfolioReducer, initialState);
   return (
     <WindowDimensionsProvider>
-      <div className="App">
-      <PortfolioProvider value={store}>
-        <Content /* variables */ />
-      </PortfolioProvider>
-      </div>
+      <ParallaxProvider>
+        <div className="App">
+        <PortfolioProvider value={store}>
+          <Content /* variables */ />
+        </PortfolioProvider>
+        </div>
+      </ParallaxProvider>      
     </WindowDimensionsProvider>
   )
 }

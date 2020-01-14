@@ -1,12 +1,19 @@
 import React from 'react';
 //import { usePortifolio } from "../../hooks/usePortfolio"
 import NavBar from '../NavBar';
+import Header from '../Header';
 
 const Home = () => {
     //const { /* variables */ } = usePortifolio();
 
     return (
-        <NavBar />
+        <div className="homepage">
+            {/* <NavBar /> */}
+            <Header />
+            <Header />
+            <Header />
+            {/* another component maybe: "who am I?" */}
+        </div>
     )
 }
 
