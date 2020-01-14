@@ -1,7 +1,6 @@
-import React, { useState, useReducer } from 'react';
+import React, { useReducer } from 'react';
 import { portfolioReducer } from './reducers/portfolioReducer';
 import { PortfolioProvider } from './providers/portfolioProvider';
-import PortfolioHome from './components/Content/portfolioHome';
 import { WindowDimensionsProvider } from './providers/windowDimensionsProvider';
 import 'bulma/css/bulma.css'
 import Content from './components/Content';

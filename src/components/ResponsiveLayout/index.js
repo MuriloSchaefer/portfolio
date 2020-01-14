@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import { useWindowDimensions } from '../../hooks/useWindowDimensions'
 
 const ResponsiveLayout = ({breakpoint, renderMobile, renderDesktop }) =>{

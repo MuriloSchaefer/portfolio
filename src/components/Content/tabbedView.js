@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const TabbedView = ({ className, items, renderItem }) => {
-    const [active, setActive] = useState(0)
+const TabbedView = (/* { variables  } */) => {
+
     return (
       <div className='tabs-container'>
         {/* Add this to a NavBarcomponent

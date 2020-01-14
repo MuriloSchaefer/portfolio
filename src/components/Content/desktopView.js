@@ -1,11 +1,10 @@
 import React from 'react'
-import { useWindowDimensions } from '../../hooks/useWindowDimensions'
-import PortfolioHome from './portfolioHome'
+import Home from '../Home'
 
-const DesktopView = ({ /* variables */ }) => {
-  const { width } = useWindowDimensions()
+const DesktopView = (/* { variables } */) => {
+  //const { width } = useWindowDimensions()
   return (
-    <PortfolioHome />
+    <Home />
   )
 }
 export default DesktopView
