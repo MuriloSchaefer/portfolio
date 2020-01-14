@@ -1,15 +1,12 @@
 import React from 'react';
-import { usePortifolio } from "../hooks/usePortfolio"
+import { usePortifolio } from "../../hooks/usePortfolio"
+import NavBar from '../NavBar';
 
 const PortfolioHome = () => {
     const { /* variables */ } = usePortifolio();
 
     return (
-        <>
-        {/* <Container>
-            <NavBar />
-        </Container> */}
-        </>
+        <NavBar />
     )
 }
 

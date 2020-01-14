@@ -1,6 +1,6 @@
 import React, { useEffect, useState, } from 'react'
 
-export const WindowDimensionsContext = React.createContext({});
+export const WindowDimensionsContext = React.createContext(null);
 export const WindowDimensionsProvider = ({children}) => {
     const [dimensions, setDimensions] = useState({
         width: window.innerWidth,

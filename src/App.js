@@ -1,8 +1,10 @@
 import React, { useState, useReducer } from 'react';
 import { portfolioReducer } from './reducers/portfolioReducer';
 import { PortfolioProvider } from './providers/portfolioProvider';
-import PortfolioHome from './components/portfolioHome';
+import PortfolioHome from './components/Content/portfolioHome';
 import { WindowDimensionsProvider } from './providers/windowDimensionsProvider';
+import 'bulma/css/bulma.css'
+import Content from './components/Content';
 
 const initialState = {
   // variables
@@ -14,7 +16,7 @@ const App = () => {
     <WindowDimensionsProvider>
       <div className="App">
       <PortfolioProvider value={store}>
-        <PortfolioHome />
+        <Content /* variables */ />
       </PortfolioProvider>
       </div>
     </WindowDimensionsProvider>
