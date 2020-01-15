@@ -6,7 +6,7 @@ import Content from './components/Content';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 // CSS libraries
-import 'bulma/css/bulma.css'
+//import 'bulma/css/bulma.css'
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 const initialState = {

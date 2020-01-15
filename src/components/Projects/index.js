@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Container, Button } from 'react-bootstrap'
+import React from 'react';
+import { Container } from 'react-bootstrap'
 
 // custom css styles
 import './index.scss'

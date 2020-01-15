@@ -5,7 +5,7 @@ import { Container, Button } from 'react-bootstrap'
 
 
 const Resume = () => {
-    const [resume, setResume] = useState('https://linktopdf.com')
+    const [resume, ] = useState('https://linktopdf.com')
 
     return (
         <Container className='resume'>

@@ -1,13 +1,12 @@
 import React from 'react';
 //import style from './header.scss';
-import { Parallax,  ParallaxBanner } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
 import { Container } from 'react-bootstrap'
 import Resume from '../Resume';
 import SocialMedia from '../SocialMedia';
 
 // custom css styles
 import './index.scss'
-
 
 const Intro = () => {
     return (

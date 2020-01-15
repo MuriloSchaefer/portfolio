@@ -10,7 +10,9 @@ const DesktopView = (/* { variables } */) => {
         <Intro />
         <NavBar />
         <Projects />
-        {/*<MoreAbout />
+        {/*
+        <Publications />
+        <MoreAbout />
         <Contact /> */}
         {/* another component maybe: "who am I?" */}
     </div>

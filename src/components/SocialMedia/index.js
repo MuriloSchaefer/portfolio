@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Container, Button } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 // custom css styles
-
+import './index.scss'
 
 const SocialMedia = () => {
 
-    const [medias, setMedias] = useState([
+    const [medias, ] = useState([
         {
             url: 'https://www.linkedin.com/in/murilo-f-schaefer', //linkedin
             icon: 'li'
@@ -30,7 +30,7 @@ const SocialMedia = () => {
             <ul className='socialMedia-list'>
                 { medias.map(media => (
                     <li className='socialMedia-item'>
-                        <a url={media.url}>
+                        <a href={media.url}>
                             <i className={media.icon} />
                         </a> 
                     </li>
