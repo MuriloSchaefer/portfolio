@@ -1,7 +1,7 @@
 import React from 'react'
 import ResponsiveLayout from '../ResponsiveLayout'
-import MobileView from './mobileView'
-import DesktopView from './desktopView'
+import MobileView from '../MobileView'
+import DesktopView from '../DesktopView'
 
 const Content = (/* { variables  } */) => (
   <ResponsiveLayout

@@ -1,13 +1,11 @@
-$background-color: #0f0;
-$header-text-main-color: #000;
-$header-text-secundary-color: rgba(0,0,0,0.6);
+@import '../../themes/orange.scss'; //how to make this dynamic
 
 .root {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    //background-image: url('../../assets/header-background.jpg');
+    background-image: url('../../assets/header-background.jpg');
     height: 100vh;
 }
 .canvas{
@@ -27,15 +25,20 @@ $header-text-secundary-color: rgba(0,0,0,0.6);
     position: relative;
     text-align: center;
     transform: translateY(-150%);
-    color: $header-text-main-color;
+    color: $text_on_s;
     z-index: 2;
+
+    .name{
+        color: $primary_light;
+    }
 
     h1{
         font-size: xx-large;
     }
 
     h2 {
-        color: $header-text-secundary-color;
+        color: $primary_dark;
+        font-size: large;
     }
 }
 
