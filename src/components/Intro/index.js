@@ -26,7 +26,7 @@ const Intro = () => {
                         {/* <Contact  /> */} 
                     </Container>
                 </Parallax>
-                <p>Scroll</p>
+                <p>Scroll to see the projects</p>
             </div>
         </div>
     )

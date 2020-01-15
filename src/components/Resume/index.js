@@ -6,10 +6,10 @@ import { Container, Button } from 'react-bootstrap'
 
 const Resume = () => {
     const [resume, setResume] = useState('https://linktopdf.com')
-    
+
     return (
         <Container className='resume'>
-            <Button className='button'>
+            <Button variant="outline-light" href={resume}>
                 Resume
             </Button>
         </Container>
