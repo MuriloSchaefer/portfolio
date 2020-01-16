@@ -18,7 +18,8 @@
 }
 .container {
     position: relative;
-    width: 25em;
+    width: 40em;
+    padding: 0;
 }
 
 .info {
@@ -44,4 +45,11 @@
     }
 }
 
+.scroll{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    bottom: 30px;
+    color: $text_on_p
+}
 

@@ -9,7 +9,7 @@ const Resume = () => {
 
     return (
         <Container className='resume'>
-            <Button variant="outline-light" href={resume}>
+            <Button variant="outline-light" href={resume} target='_blank'>
                 Resume
             </Button>
         </Container>

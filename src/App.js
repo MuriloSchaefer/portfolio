@@ -5,6 +5,12 @@ import { WindowDimensionsProvider } from './providers/windowDimensionsProvider';
 import Content from './components/Content';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faPhoneAlt, faAt } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faPhoneAlt, faAt)
+
 // CSS libraries
 //import 'bulma/css/bulma.css'
 //import 'bootstrap/dist/css/bootstrap.min.css';

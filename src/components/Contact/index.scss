@@ -1,20 +1,21 @@
-.socialMedia-root{
+.contact-root{
     align-items: center;
     justify-content: center;
     display: flex;
     flex-flow: row wrap;
     margin-top: 15px;
 }
-.socialMedia-list{
+.contact-list{
     padding: 0;
     list-style-type: none;
 }
 
-.socialMedia-item{
+.contact-item{
     float: left;
-    margin-left: 15px;
+    margin-left: 15px;  
     text-decoration: none;
+    align-items: center;
+    
+    li:first-child { margin-top: 0 !important; margin-left: 0 !important; }
 
 }
-
-li:first-child { margin-top: 0 !important; margin-left: 0 !important; }
