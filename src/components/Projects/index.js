@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container } from 'react-bootstrap'
 import { Parallax } from 'react-scroll-parallax';
-import Project from '../Project'
+import Project from './Project'
 
 // custom css styles
 import './index.scss'
@@ -35,7 +35,7 @@ const Projects = () => {
             difficulties: 'integrate each interation of the algorithm with UI. ',
             solutions: 'Solved this issue by using observables, so the UI watched the algorithm execution to update the screen',
             conclusion: 'This project gave a lot of knowledge of how path finding algorithms work and also improved my ReactJS skills.',
-            dateInterval:[new Date(2020,2)]
+            dateInterval:[new Date(2020,0)]
         },
         {
             id: 2,
@@ -44,12 +44,12 @@ const Projects = () => {
             url: 'https://github.com/MuriloSchaefer/darwin',
             demo: 'https://muriloschaefer.github.io/darwin',
             tags: ['React', 'Javascript', 'Evolutionary'],
-            description: 'Development of a visualizer for path finding algorithms, this way we can see how each algorithm works.'+
-                         ' This project was a homework of of artificial inteligence`s subject.',
-            difficulties: 'integrate each interation of the algorithm with UI. ',
-            solutions: 'Solved this issue by using observables, so the UI watched the algorithm execution to update the screen',
-            conclusion: 'This project gave a lot of knowledge of how path finding algorithms work and also improved my ReactJS skills.',
-            dateInterval:[new Date(2020,2)]
+            description: 'Development of a visualizer for evolutionary algorithms to understand their behavior.'+
+                         ' This project tries to teach a machine to play slitherin.',
+            difficulties: 'code the slitherin execution',
+            solutions: 'Not solved yet',
+            conclusion: 'to be added.',
+            dateInterval:[new Date(2020,0)]
         }
     ])
 

@@ -1,4 +1,4 @@
-@import '../../themes/orange.scss';
+@import '../../../themes/orange.scss';
 
 .project{
     width: 400px;
@@ -7,6 +7,7 @@
     padding: 10px;
     background-color: white;
     margin: 0 5px 0 5px;
+    min-width: 350px;
 
     .project-image{
         width: 100%;
