@@ -5,7 +5,7 @@ import DesktopView from '../DesktopView'
 
 const Content = (/* { variables  } */) => (
   <ResponsiveLayout
-    breakpoint={740}
+    breakpoint={810}
     renderDesktop={() => (
       <DesktopView /* variables */ />
     )}

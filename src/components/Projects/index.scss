@@ -3,6 +3,28 @@
 .projects {
     background-color: $light_gray;
     z-index: 0;
-    height: 900px;
+    padding-bottom: 15px;
     width: 100%;
+    position: relative;
+    justify-content: center;
+
+    h1 {
+        color: $dark_gray;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .projects-list{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .separator{
+            flex: 1 0 10px;
+        }
+        
+    }
 }
+

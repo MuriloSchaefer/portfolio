@@ -32,7 +32,9 @@ const NavBar = () => {
         <Container className="navbar-container" fluid data-spy="affix" data-offset-top="205">
             <ul className="navbar">
                 { buttons.map(button => (
-                    <li className="navbar-item" key={button.name}>{button.value}</li>
+                    <a href={button.url} key={button.name}>
+                        <li className="navbar-item" >{button.value}</li>
+                    </a>
                 ))}
             </ul>
         </Container>

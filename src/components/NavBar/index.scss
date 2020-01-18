@@ -16,6 +16,14 @@
     min-height: 50px;
     width: 25em;
     list-style-type: none;
+
+    a {
+        text-decoration: none;
+
+        :hover{
+            opacity: 0.5;
+        }
+    }
 }
 .navbar-item{
     color: $text_on_p;
