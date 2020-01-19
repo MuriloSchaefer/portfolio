@@ -11,7 +11,7 @@ const Divider = () => {
     return (
         <Container className="divider-container" fluid >
             <Parallax
-                    x={[-50, 0]}>
+                    x={[-30, 0]}>
                 <Container className='quote'>
                     <h1>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</h1>
                     <h2>Martin Fowler</h2>
